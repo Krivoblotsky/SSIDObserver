@@ -1,6 +1,7 @@
 # SSIDObserver
 
 Wi-Fi network SSID observer. 
+Its all about PUBLIC API built on top of <SystemConfiguration> native framework. Basically it calls CNCopySupportedInterfaces() and takes "en0" network adaptor information.
 
 Usage:
 ```objc
