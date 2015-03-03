@@ -37,7 +37,7 @@ APSSIDModel properties:
 @property (nonatomic, copy, readonly) NSData *ssidData;
 ```
 
-One more thing. You can use APSSIDInfoProvider if you don't need for observation, but just want to obrain current network info.
+One more thing. You can use APSSIDInfoProvider if you don't need for observation, but just want to obtain current network info.
 
 ```objc
 - (APSSIDModel *)currentServiceInfo;
