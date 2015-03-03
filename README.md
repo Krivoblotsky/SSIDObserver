@@ -1,6 +1,6 @@
 # SSIDObserver
 
-Wi-Fi network SSID observer. 
+Nightly built Wi-Fi network SSID observer. 
 Its all about PUBLIC API built on top of <SystemConfiguration> native framework. Basically it calls CNCopySupportedInterfaces() and takes "en0" network adaptor information. Observer is just polling network info once a time interval.
 
 Usage:
@@ -43,7 +43,7 @@ One more thing. You can use APSSIDInfoProvider if you don't need for observation
 - (APSSIDModel *)currentServiceInfo;
 ```
 
-###TODO
+###TODO:
 
 1. OS X Support.
 
