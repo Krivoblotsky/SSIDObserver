@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A7F2D6B81AA64EC00077B76C /* APSSIDObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSSIDObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F2D6B81AA64EC00077B76C /* APSSIDObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSSIDObserverExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F2D6BC1AA64EC00077B76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7F2D6BD1AA64EC00077B76C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7F2D6BF1AA64EC00077B76C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		A7F2D6B91AA64EC00077B76C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7F2D6B81AA64EC00077B76C /* APSSIDObserver.app */,
+				A7F2D6B81AA64EC00077B76C /* APSSIDObserverExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7F2D6B71AA64EC00077B76C /* APSSIDObserver */ = {
+		A7F2D6B71AA64EC00077B76C /* APSSIDObserverExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7F2D6DB1AA64EC00077B76C /* Build configuration list for PBXNativeTarget "APSSIDObserver" */;
+			buildConfigurationList = A7F2D6DB1AA64EC00077B76C /* Build configuration list for PBXNativeTarget "APSSIDObserverExample" */;
 			buildPhases = (
 				A7F2D6B41AA64EC00077B76C /* Sources */,
 				A7F2D6B51AA64EC00077B76C /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = APSSIDObserver;
+			name = APSSIDObserverExample;
 			productName = Sid;
-			productReference = A7F2D6B81AA64EC00077B76C /* APSSIDObserver.app */;
+			productReference = A7F2D6B81AA64EC00077B76C /* APSSIDObserverExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A7F2D6B31AA64EC00077B76C /* Build configuration list for PBXProject "APSSIDObserver" */;
+			buildConfigurationList = A7F2D6B31AA64EC00077B76C /* Build configuration list for PBXProject "APSSIDObserverExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7F2D6B71AA64EC00077B76C /* APSSIDObserver */,
+				A7F2D6B71AA64EC00077B76C /* APSSIDObserverExample */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = APSSIDObserver;
+				PRODUCT_NAME = APSSIDObserverExample;
 			};
 			name = Debug;
 		};
@@ -295,14 +295,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sid/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = APSSIDObserver;
+				PRODUCT_NAME = APSSIDObserverExample;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7F2D6B31AA64EC00077B76C /* Build configuration list for PBXProject "APSSIDObserver" */ = {
+		A7F2D6B31AA64EC00077B76C /* Build configuration list for PBXProject "APSSIDObserverExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7F2D6D91AA64EC00077B76C /* Debug */,
@@ -311,7 +311,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7F2D6DB1AA64EC00077B76C /* Build configuration list for PBXNativeTarget "APSSIDObserver" */ = {
+		A7F2D6DB1AA64EC00077B76C /* Build configuration list for PBXNativeTarget "APSSIDObserverExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7F2D6DC1AA64EC00077B76C /* Debug */,
