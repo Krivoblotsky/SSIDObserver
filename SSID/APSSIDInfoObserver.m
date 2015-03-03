@@ -47,7 +47,6 @@
 {
     [self obtainServiceInfo];
     [self scheduleSSIDCheck];
-    
 }
 
 - (void)stopObserving

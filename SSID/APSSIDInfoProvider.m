@@ -27,7 +27,7 @@
     CFArrayRef supportedInterfaces = CNCopySupportedInterfaces();
     
     /* Cannot find active network cards */
-    if (CFArrayGetCount(supportedInterfaces) == 0) {
+    if (supportedInterfaces == NULL || CFArrayGetCount(supportedInterfaces) == 0) {
         if (supportedInterfaces) CFRelease(supportedInterfaces);
         return nil;
     }
