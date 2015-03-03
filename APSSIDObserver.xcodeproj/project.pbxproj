@@ -13,21 +13,10 @@
 		A7F2D6C71AA64EC00077B76C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D6C51AA64EC00077B76C /* Main.storyboard */; };
 		A7F2D6C91AA64EC00077B76C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D6C81AA64EC00077B76C /* Images.xcassets */; };
 		A7F2D6CC1AA64EC00077B76C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7F2D6CA1AA64EC00077B76C /* LaunchScreen.xib */; };
-		A7F2D6D81AA64EC00077B76C /* SidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D6D71AA64EC00077B76C /* SidTests.m */; };
 		A7F2D6F41AA665B80077B76C /* APSSIDInfoObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D6EF1AA665B80077B76C /* APSSIDInfoObserver.m */; };
 		A7F2D6F51AA665B80077B76C /* APSSIDInfoProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D6F11AA665B80077B76C /* APSSIDInfoProvider.m */; };
 		A7F2D6F61AA665B80077B76C /* APSSIDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F2D6F31AA665B80077B76C /* APSSIDModel.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A7F2D6D21AA64EC00077B76C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A7F2D6B01AA64EC00077B76C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A7F2D6B71AA64EC00077B76C;
-			remoteInfo = Sid;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A7F2D6B81AA64EC00077B76C /* APSSIDObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSSIDObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,9 +29,6 @@
 		A7F2D6C61AA64EC00077B76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7F2D6C81AA64EC00077B76C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A7F2D6CB1AA64EC00077B76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A7F2D6D11AA64EC00077B76C /* APSSIDObserverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APSSIDObserverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7F2D6D61AA64EC00077B76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7F2D6D71AA64EC00077B76C /* SidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidTests.m; sourceTree = "<group>"; };
 		A7F2D6EE1AA665B80077B76C /* APSSIDInfoObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSSIDInfoObserver.h; sourceTree = "<group>"; };
 		A7F2D6EF1AA665B80077B76C /* APSSIDInfoObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSSIDInfoObserver.m; sourceTree = "<group>"; };
 		A7F2D6F01AA665B80077B76C /* APSSIDInfoProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSSIDInfoProvider.h; sourceTree = "<group>"; };
@@ -59,13 +45,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7F2D6CE1AA64EC00077B76C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -73,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				A7F2D6BA1AA64EC00077B76C /* Sid */,
-				A7F2D6D41AA64EC00077B76C /* SidTests */,
 				A7F2D6B91AA64EC00077B76C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				A7F2D6B81AA64EC00077B76C /* APSSIDObserver.app */,
-				A7F2D6D11AA64EC00077B76C /* APSSIDObserverTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,23 +85,6 @@
 			children = (
 				A7F2D6BC1AA64EC00077B76C /* Info.plist */,
 				A7F2D6BD1AA64EC00077B76C /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A7F2D6D41AA64EC00077B76C /* SidTests */ = {
-			isa = PBXGroup;
-			children = (
-				A7F2D6D71AA64EC00077B76C /* SidTests.m */,
-				A7F2D6D51AA64EC00077B76C /* Supporting Files */,
-			);
-			path = SidTests;
-			sourceTree = "<group>";
-		};
-		A7F2D6D51AA64EC00077B76C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A7F2D6D61AA64EC00077B76C /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,24 +122,6 @@
 			productReference = A7F2D6B81AA64EC00077B76C /* APSSIDObserver.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7F2D6D01AA64EC00077B76C /* APSSIDObserverTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7F2D6DE1AA64EC00077B76C /* Build configuration list for PBXNativeTarget "APSSIDObserverTests" */;
-			buildPhases = (
-				A7F2D6CD1AA64EC00077B76C /* Sources */,
-				A7F2D6CE1AA64EC00077B76C /* Frameworks */,
-				A7F2D6CF1AA64EC00077B76C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A7F2D6D31AA64EC00077B76C /* PBXTargetDependency */,
-			);
-			name = APSSIDObserverTests;
-			productName = SidTests;
-			productReference = A7F2D6D11AA64EC00077B76C /* APSSIDObserverTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,10 +133,6 @@
 				TargetAttributes = {
 					A7F2D6B71AA64EC00077B76C = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					A7F2D6D01AA64EC00077B76C = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = A7F2D6B71AA64EC00077B76C;
 					};
 				};
 			};
@@ -212,7 +150,6 @@
 			projectRoot = "";
 			targets = (
 				A7F2D6B71AA64EC00077B76C /* APSSIDObserver */,
-				A7F2D6D01AA64EC00077B76C /* APSSIDObserverTests */,
 			);
 		};
 /* End PBXProject section */
@@ -225,13 +162,6 @@
 				A7F2D6C71AA64EC00077B76C /* Main.storyboard in Resources */,
 				A7F2D6CC1AA64EC00077B76C /* LaunchScreen.xib in Resources */,
 				A7F2D6C91AA64EC00077B76C /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7F2D6CF1AA64EC00077B76C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,23 +181,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7F2D6CD1AA64EC00077B76C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7F2D6D81AA64EC00077B76C /* SidTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A7F2D6D31AA64EC00077B76C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A7F2D6B71AA64EC00077B76C /* APSSIDObserver */;
-			targetProxy = A7F2D6D21AA64EC00077B76C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A7F2D6C51AA64EC00077B76C /* Main.storyboard */ = {
@@ -385,40 +299,6 @@
 			};
 			name = Release;
 		};
-		A7F2D6DF1AA64EC00077B76C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SidTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = APSSIDObserverTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sid.app/Sid";
-			};
-			name = Debug;
-		};
-		A7F2D6E01AA64EC00077B76C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SidTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = APSSIDObserverTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sid.app/Sid";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -436,15 +316,6 @@
 			buildConfigurations = (
 				A7F2D6DC1AA64EC00077B76C /* Debug */,
 				A7F2D6DD1AA64EC00077B76C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A7F2D6DE1AA64EC00077B76C /* Build configuration list for PBXNativeTarget "APSSIDObserverTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A7F2D6DF1AA64EC00077B76C /* Debug */,
-				A7F2D6E01AA64EC00077B76C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

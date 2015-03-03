@@ -31,7 +31,7 @@
     [super viewDidLoad];
     
     __weak __typeof(self) weakSelf = self;
-    [self.observer setSsidChangedBlock:^(APSSIDModel *model){
+    [self.observer setSSIDChangedBlock:^(APSSIDModel *model){
         if (model) {
             weakSelf.networkStatusLabel.text = [NSString stringWithFormat:@"Network is: %@", model.ssid];
         } else {

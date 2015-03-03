@@ -92,8 +92,8 @@
 
 - (void)notifySSIDChangedSafely
 {
-    if (self.ssidChangedBlock) {
-        self.ssidChangedBlock(self.currentSSID);
+    if (self.SSIDChangedBlock) {
+        self.SSIDChangedBlock(self.currentSSID);
     }
 }
 

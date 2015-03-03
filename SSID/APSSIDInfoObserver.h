@@ -31,6 +31,6 @@ typedef void(^APSSIDInfoObserverSSIDChangeBlock)(APSSIDModel *model);
 /**
  *  Block represents ssid chage
  */
-@property (nonatomic, copy) APSSIDInfoObserverSSIDChangeBlock ssidChangedBlock;
+@property (nonatomic, copy) APSSIDInfoObserverSSIDChangeBlock SSIDChangedBlock;
 
 @end
