@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SSIDObserver"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "iOS Wi-Fi network SSID observer"
   s.homepage     = "https://github.com/Krivoblotsky/SSIDObserver"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
