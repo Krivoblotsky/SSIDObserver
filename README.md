@@ -45,7 +45,7 @@ One more thing. You can use APSSIDInfoProvider if you don't need for observation
 
 ###TODO:
 
-1. OS X Support.
+1. OS X Support. I didn't test it on OS X platform, but I suppose it will just take "en0" information.
 
 ###Contribution:
 
