@@ -2,6 +2,7 @@
 
 Wi-Fi network SSID observer. 
 
+Usage:
 ```objc
     self.observer = [APSSIDInfoObserver new];
 
@@ -16,5 +17,5 @@ Wi-Fi network SSID observer.
     [self.observer startObserving];
 ```
 
-# Screenshot:
+### Screenshot:
 <img width=320 src="https://dl.dropboxusercontent.com/u/11819370/IMG_3333.PNG">
