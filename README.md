@@ -38,3 +38,5 @@ APSSIDModel properties:
 
 ### Screenshot:
 <img width=320 src="https://dl.dropboxusercontent.com/u/11819370/IMG_3333.PNG">
+
+Feel free to open issues and pull requests. Or email me krivoblotsky@me.com
