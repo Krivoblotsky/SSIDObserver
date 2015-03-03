@@ -17,5 +17,24 @@ Usage:
     [self.observer startObserving];
 ```
 
+APSSIDModel properties:
+
+```objc
+/**
+ *  Represents Basic Service Set Identification
+ */
+@property (nonatomic, copy, readonly) NSString *bssid;
+
+/**
+ *  Reprsents Service Set Identification a.k.a Wi-Fi Name
+ */
+@property (nonatomic, copy, readonly) NSString *ssid;
+
+/**
+ *  Represents HEX representation of SSID
+ */
+@property (nonatomic, copy, readonly) NSData *ssidData;
+```
+
 ### Screenshot:
 <img width=320 src="https://dl.dropboxusercontent.com/u/11819370/IMG_3333.PNG">
