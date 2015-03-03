@@ -20,7 +20,7 @@
 
 /* Begin PBXFileReference section */
 		A7F2D6B81AA64EC00077B76C /* APSSIDObserverExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APSSIDObserverExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7F2D6BC1AA64EC00077B76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F2D6BC1AA64EC00077B76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		A7F2D6BD1AA64EC00077B76C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A7F2D6BF1AA64EC00077B76C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A7F2D6C01AA64EC00077B76C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		A7F2D6AF1AA64EC00077B76C = {
 			isa = PBXGroup;
 			children = (
-				A7F2D6BA1AA64EC00077B76C /* Sid */,
+				A7F2D6BA1AA64EC00077B76C /* APSSIDObserverExample */,
 				A7F2D6B91AA64EC00077B76C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,7 +64,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7F2D6BA1AA64EC00077B76C /* Sid */ = {
+		A7F2D6BA1AA64EC00077B76C /* APSSIDObserverExample */ = {
 			isa = PBXGroup;
 			children = (
 				A7F2D6ED1AA665B80077B76C /* SSID */,
@@ -77,7 +77,7 @@
 				A7F2D6CA1AA64EC00077B76C /* LaunchScreen.xib */,
 				A7F2D6BB1AA64EC00077B76C /* Supporting Files */,
 			);
-			path = Sid;
+			path = APSSIDObserverExample;
 			sourceTree = "<group>";
 		};
 		A7F2D6BB1AA64EC00077B76C /* Supporting Files */ = {
@@ -283,7 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Sid/Info.plist;
+				INFOPLIST_FILE = APSSIDObserverExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = APSSIDObserverExample;
 			};
@@ -293,7 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Sid/Info.plist;
+				INFOPLIST_FILE = APSSIDObserverExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = APSSIDObserverExample;
 			};
