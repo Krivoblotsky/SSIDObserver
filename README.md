@@ -1,4 +1,7 @@
 # SSIDObserver
+=============
+
+Wi-Fi network SSID observer. 
 
 ```objc
     self.observer = [APSSIDInfoObserver new];
