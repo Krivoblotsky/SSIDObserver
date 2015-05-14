@@ -1,5 +1,7 @@
 # SSIDObserver
 
+![teaser](/screenshots/ssid_teaser.png)
+
 Nightly built Wi-Fi network SSID observer. 
 Its all about PUBLIC API built on top of native "SystemConfiguration" framework. Basically it calls CNCopySupportedInterfaces() and takes "en0" network adaptor information. Observer is just polling network info once a time interval.
 
